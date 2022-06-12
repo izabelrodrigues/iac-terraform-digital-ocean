@@ -46,6 +46,12 @@ resource "digitalocean_kubernetes_node_pool" "node_premium" {
 
 }
 
+#Local file
+resource "local_file" "kube_config" {
+    content  = digitalocean_kubernetes_cluster.k8s_iniciativa_devops.kube_config.0.raw_config
+    filename = "kube_config.yaml"
+}
+
 ################################# Bloco outputs #################################
 
 output "kube_endpoint" {
