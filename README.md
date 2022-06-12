@@ -8,9 +8,9 @@ k8s_name=
 region=
 ```
 
--- O token pode ser obtido na opção API da sua conta da Digital Ocean
--- k8s_name é o nome que você vai atribuir para ser exibido como nome do cluster na Digital Ocean
--- region é a região onde você está usando seus recursos na Digital Ocean
+-- O token pode ser obtido na opção API da sua conta da Digital Ocean <br/>
+-- k8s_name é o nome que você vai atribuir para ser exibido como nome do cluster na Digital Ocean <br/>
+-- region é a região onde você está usando seus recursos na Digital Ocean <br/>
 
 - Para executar, basta entrar no diretório raiz e executar
 
